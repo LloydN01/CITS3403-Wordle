@@ -1,0 +1,27 @@
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#guess-div {
+    text-align: center;
+}
+
+.guess-attempt {
+    text-align: center;
+}
+
+.guess-char {
+    background-color: lightgrey;
+    display: inline-flex;
+    height: 80px;
+    width: 80px;
+    border: 2px solid grey;
+    vertical-align: top;
+    align-items: center;
+    margin: 4px 2px;
+}
+
+h1 {
+    margin: auto;
+}
