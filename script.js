@@ -23,8 +23,8 @@ const target = randomWord();
 let numAttempts = 0;
 const maxNumAttempts = 6;
 
-function wordle(guess){
-
+function wordle(){
+    let guess = document.getElementById('guess').value;
     if(guess.length != 5){
         document.getElementById("alert").innerHTML = guess + " is not a 5 letter word!";
         return;
@@ -54,3 +54,5 @@ function wordle(guess){
 
     numAttempts += 1;
 }
+
+document.getElementById('submit').addEventListener("click", wordle);
